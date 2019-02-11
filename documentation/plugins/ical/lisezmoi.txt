@@ -1,0 +1,72 @@
+Plugin IcAL pour Guppy 
+***********************************
+
+Créé en juin 2016 par Stéphane GOSNET
+Site : http://stephane.gosnet.free.fr
+email : stegos@free.fr
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+I : Contenu du ZIP :
+********************
+1 répertoire "admin" contenant tous les fichiers liés à l'administration
+1 répertoire "documentation" contenant tous les fichiers :
+    "lisezmoi.txt" (le fichier que vous êtes en train de lire)
+    "readme.txt"
+1 répertoire "plugins" contenant tous les fichiers liés à ce plugin
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+II : Buts du plugin:
+*********************
+
+Ce plugin permet de publier l'agenda de Guppy au format iCal (ICS)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+III : Installation / Désinstallation :
+**************************************
+
+Installation automatisée par la fonction "Installer" de l'administration.
+
+Installation manuelle:
+    Copier par FTP les répertoires "admin", "documentation", "plugins"
+	directement à la racine du site
+
+La désinstallation est automatisée par une option du menu administration du plugin.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+IV : Utilisation :
+******************
+
+Activez le plugin iCal dans la zone d'administration.
+Le ou les liens de publication de l'agenda iCal sont alors affichés (support du multi-langues).
+Utilisez ces URL sur votre client iCal pour vous abonner à l'agenda de Guppy.
+
+L'utilisation du plugin iCal impose une règle de création des événements dans l'agenda :
+ - (ligne 1) Nom de l'événement
+ - (ligne 2) Lieu de l'événement
+ - (ligne 3 et +) Détail de l'événement
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+V : Problèmes connus :
+**********************
+
+Seule la première ligne de détail dans l'événement est correctement interprété par les clients Ical
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+V : Compatibilité :
+*******************
+
+Cette version n'est compatible qu'avec les versions 5.0.x de Guppy.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+VI : Historique :
+*****************
+
+v1.0 : création du plugin
+
